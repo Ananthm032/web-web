@@ -1,0 +1,7 @@
+.Anal{
+    display: flex;
+    width: 100%;
+}
+.analcontainer{
+    flex: 5;
+}

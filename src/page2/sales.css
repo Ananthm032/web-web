@@ -4,4 +4,18 @@
 }
 .salcontainer{
     flex: 5;
-}
+    
+  }
+  .wood{
+    background-image: url( /src/Images/bubbly.png), url(/src/Images/paper-background.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 200px;
+    font-size: 20px;
+
+  }
+  .wood h3{
+    align-items: center;
+    justify-content: center;
+    margin-left: 200px;
+  }

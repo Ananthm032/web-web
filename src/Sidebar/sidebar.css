@@ -1,80 +1,57 @@
-.sidebar{
-    border-right: 0.5px solid lightgray;
-min-height: 100vh;
-    flex: 1;
+.project{
+    position: relative;
+    width: 200px;
+    border-right:0.5 solid lightgray ;
+    height: 100%;
+    background-color: rgb(228, 236, 250);
 }
-.top{
-    align-items: center;
-    justify-content: center;
-    height: 50px;
+.project ul{
+    position: absolute;
+   
+    width: 100px;
+    height: 200px;
+   list-style: none;
     display: flex;
-}
-.logo{
-    font-size: 20px;
-    color: rgb(231, 29, 29);
-    font-weight: bold;
-}
-.sidebar .hr{
-    height: 0;
-    border: 0.5px solid lightgray;
-}
-.center{
-    margin-left: 10px;
-
-}
-.ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.title{
-    font-size: 15px;
-    font-weight: bold;
-    color: rgb(92, 91, 91);
-    margin-top: 15px;
-    margin-bottom: 5px;
-}
-.li{
-    display: flex;
+    justify-content: space-around;
     align-items: center;
-    padding: 5px;
-   cursor: pointer;
-}
-.ul :hover{
-    background-color: aqua;
-}
-.icon{
-   font-size: 18px;
-   color: rgb(37, 68, 245);
+    flex-direction: column;
+   opacity: 0;
   
+   transform: translatey(10px);
 }
-.span{
-    font-size: 20px;
-    margin-left: 10px;
+.project li{
+ 
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
-.bottom{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  margin: 0;
-
+.project li:hover{
+    background: rgb(153, 169, 238);
+    padding: 0px 50px;
 }
-.color{
-    width: 20px;
-    height:20px ;
-    border: 1px solid rgb(5, 5, 5);
-    border-radius:5px ;
+.project ul li a{
+    text-decoration: none;
+}
+.dropdown button, .home{
+    background:none ;
+    border: none;
+    color: rgb(10, 10, 10);
+    text-decoration: none;
     cursor: pointer;
-   margin-left: 10px;
-  
+     font-size: 18px;
    
 }
-
-.color:nth-child(1){
-background-color: black;
+.project button:focus + ul{
+    opacity: 1;
 }
-.color:nth-child(2){
-    background-color: rgb(51, 21, 219);
-    }
-  
+.home{
+    font-size: larger;
+    color: chocolate;
+   margin-top: 0;
+}
+.icon{
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    display: flex;
+}

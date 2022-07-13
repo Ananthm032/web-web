@@ -13,6 +13,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import "./login.css"
 
 function Copyright(props) {
   return (
@@ -80,14 +81,13 @@ export default function SignIn() {
               control={<Checkbox value="remember" color="primary" />}
               label="Remember me"
             />
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              sx={{ mt: 3, mb: 2 }}
-            >
-              Sign In
-            </Button>
+           
+           <Button>
+             
+            
+              <Link href='http://localhost:3000/home'  style={{textDecoration:'none'}} className='link'>Sign In</Link> 
+              </Button> 
+          
             <Grid container>
               <Grid item xs>
                 <Link href="#" variant="body2">

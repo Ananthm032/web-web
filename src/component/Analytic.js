@@ -3,7 +3,7 @@ import "./analytic.css"
 import Sidebar from '../Sidebar/Sidebar'
 import Navbar from '../Navbar/Navbar'
 import Image from '../Imagec/Image'
-import Image1 from '../Image1/Image1'
+
 function Analytic() {
   return (
     <div className='Anal'>

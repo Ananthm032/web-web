@@ -10,11 +10,16 @@ function App() {
     <div>
   
    <Routes>
-    <Route path="/" element={<Home/>}/>
+  
+   <Route path="/" element={<Login/>}/>
+    
+    <Route path="/home" element={<Home/>} />
+   
     <Route path="/analytic" element={<Analytic/>}/>
     <Route path="/sales" element={<Sales/>}/>
     <Route path="/profit" element={<Profit/>}/>
     <Route path="/login" element={<Login/>}/>
+   
    </Routes>
   
     
